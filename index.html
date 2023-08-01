@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    
+    <link rel="shortcut icon" href="imgs/logo.png" />
 
     <!-- Title  -->
     <title>Nirankar Sand Stone Industries</title>
@@ -31,6 +31,9 @@
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
 </head>
 
@@ -73,7 +76,7 @@
 
             <!-- Logo -->
             <a class="logo" href="#">
-                <img src="imgs/logo.png" alt="logo" style="width: 200px; margin-top: 15px;">
+                <img src="imgs/logo.png" alt="logo" style="width: 120px; margin-top: 15px;">
                 <!-- <span>Nirankar Sand Stone Industries</span> -->
             </a>
 
@@ -290,7 +293,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items planters lg-mr wow fadeInUp" data-wow-delay=".4s">
                         <div class="item-img">
-                            <a href="#" class="imago wow">
+                            <a href="imgs/2.jpeg" data-fancybox="gallery" data-caption="Caption #1" class="imago wow">
                                 <img src="imgs/2.jpeg" alt="image">
                                 <div class="item-img-overlay"></div>
                             </a>
@@ -304,7 +307,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items fountain wow fadeInUp" data-wow-delay=".4s">
                         <div class="item-img">
-                            <a href="#" class="imago wow">
+                            <a href="imgs/3.jpeg" data-fancybox="gallery" data-caption="Caption #2" class="imago wow">
                                 <img src="imgs/3.jpeg" alt="image">
                                 <div class="item-img-overlay"></div>
                             </a>
@@ -360,7 +363,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items fountain wow fadeInUp" data-wow-delay=".4s">
                         <div class="item-img">
-                            <a href="#" class="imago wow">
+                            <a href="imgs/7.jpeg" data-fancybox="gallery" data-caption="Caption #3" class="imago wow">
                                 <img src="imgs/7.jpeg" alt="image">
                                 <div class="item-img-overlay"></div>
                             </a>
@@ -374,7 +377,7 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items statue wow fadeInUp" data-wow-delay=".4s">
                         <div class="item-img">
-                            <a href="#" class="imago wow">
+                            <a href="imgs/8.jpeg" data-fancybox="gallery" data-caption="Caption #3" class="imago wow">
                                 <img src="imgs/8.jpeg" alt="image">
                                 <div class="item-img-overlay"></div>
                             </a>
@@ -911,7 +914,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
@@ -921,7 +924,11 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
-
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
+        </script>
 </body>
 
 
